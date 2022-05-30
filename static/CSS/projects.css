@@ -1,32 +1,38 @@
 .container3{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.container3 div{
     border: 1px red solid;
     padding: 10px;
     background-color: #ccc;
-
+}
 .boxProjects{
     flex:1;
-    flex-direction:column;
-    color: rgb(6, 6, 84);
-    font: normal 20px Arial, Helvetica, sans-serif;
-}
-.boxText{
-    flex:1;
+    order: 1;
     flex-direction:column;
     color: rgb(6, 6, 84);
     font: normal 20px Arial, Helvetica, sans-serif;
 }
 .boxDetails{
+    display: flex;
     flex:3;
-    flex-direction: row;
+    order:2;
     color: rgb(6, 6, 84);
     font: normal 20px Arial, Helvetica, sans-serif;
 }
-.mainPage{
-    justify-content: ;
+.boxText{
+    flex:1;
+    order:3;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+.container4{
+    display:flex;
+    flex:1;
+    border: 1px red solid;
+    padding: 10px;
+    background-color: #ccc;
+}
+.button{
+    display:flex; 
+    justify-content: right;
 }

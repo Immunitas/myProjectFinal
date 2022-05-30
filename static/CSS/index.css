@@ -7,25 +7,20 @@
 .container2{
     display:flex;
     border: 1px red solid;
-    
     background-color: #ccc;
 }
-/*.container1 div, .container2 div{
-    border: 1px red solid;
-    padding: 10px;
-    background-color: #ccc;
-} */
-
 .box1{
     flex:1;
     order:1; 
     border: 1px solid red; 
     clip-path: circle();
-    width: 10%; 
+    width: 10%;
+    justify-content: center;
 }
 .box2{
     display: flex; 
     align-items: center;
+    justify-content: center;
     flex:1;
     order:2;
     color: rgb(6, 6, 84);
@@ -90,14 +85,12 @@
     align-items: center;
     border: 1px solid red;
     width: 100%;
-    height: 26.4vh;
+    height: 25.4vh;
 }
 .article{
-
-    padding: 20px;
+    padding: 10px;
 }
-
-.contactMe{
+.button{
     justify-content:right;
     display: flex;
 }

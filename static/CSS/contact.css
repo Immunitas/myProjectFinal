@@ -1,0 +1,21 @@
+body{
+    color: rgb(6, 6, 84);
+    border: 1px solid red; 
+    font: normal 20px Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.containerContact{
+    display:flex; 
+    border: 1px red solid;
+    background-color: #ccc;
+}
+.form-group{
+    padding-bottom: 15px;
+    display:block;
+    width:100%;
+}
+.my-form textarea{
+    padding: 8px;
+    width:100%;
+}
