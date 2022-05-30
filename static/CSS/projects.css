@@ -1,0 +1,32 @@
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container3 div{
+    border: 1px red solid;
+    padding: 10px;
+    background-color: #ccc;
+
+.boxProjects{
+    flex:1;
+    flex-direction:column;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+.boxText{
+    flex:1;
+    flex-direction:column;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+.boxDetails{
+    flex:3;
+    flex-direction: row;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+.mainPage{
+    justify-content: ;
+}

@@ -1,0 +1,70 @@
+
+.container1{
+    display:flex;
+}
+.container2{
+    display:flex;
+}
+.container1 div, .container2 div{
+    border: 1px red solid;
+    padding: 10px;
+    background-color: #ccc;
+}
+.box1{
+    flex:1;
+    order:1;
+}
+.box2{
+    flex:1;
+    order:2;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
+}
+.box3{
+    flex:3;
+    order:3;
+    color: rgb(6, 6, 84);
+    font: Arial, Helvetica, sans-serif;
+}
+.box4{
+    flex:1;
+    order:1;
+    color: rgb(6, 6, 84);
+    font: Arial, Helvetica, sans-serif;
+}
+.box5{
+    flex:1;
+    order:2;
+    color: rgb(6, 6, 84);
+    font: Arial, Helvetica, sans-serif;
+}
+.box6{
+    flex:1;
+    order:3;
+    color: rgb(6, 6, 84);
+    font: Arial, Helvetica, sans-serif;
+}
+.button{
+    background-color: #ccc;
+    padding: 10px; 
+    border: 1px red solid;
+}
+.avatar{
+    border-radius: 50%;
+  }
+.beehive{
+    display: flex;
+    justify-content: center;
+}
+.triathlon{
+    display: flex;
+    justify-content: center;
+}
+.article2end1{
+    display: flex;
+    justify-content: center;
+}
+
+.contactMe{
+    justify-content:right;
+}
