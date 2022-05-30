@@ -1,26 +1,42 @@
 
 .container1{
-    display:flex;
+    display:flex; 
+    border: 1px red solid;
+    background-color: #ccc;
 }
 .container2{
     display:flex;
+    border: 1px red solid;
+    
+    background-color: #ccc;
 }
-.container1 div, .container2 div{
+/*.container1 div, .container2 div{
     border: 1px red solid;
     padding: 10px;
     background-color: #ccc;
-}
+} */
+
 .box1{
     flex:1;
-    order:1;
+    order:1; 
+    border: 1px solid red; 
+    clip-path: circle();
+    width: 10%; 
 }
 .box2{
+    display: flex; 
+    align-items: center;
     flex:1;
     order:2;
     color: rgb(6, 6, 84);
+    border: 1px solid red; 
     font: normal 20px Arial, Helvetica, sans-serif;
 }
 .box3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     flex:3;
     order:3;
     color: rgb(6, 6, 84);
@@ -45,26 +61,43 @@
     font: Arial, Helvetica, sans-serif;
 }
 .button{
-    background-color: #ccc;
-    padding: 10px; 
-    border: 1px red solid;
+    background-color: #ccc; 
+   
 }
 .avatar{
-    border-radius: 50%;
+    clip-path: circle();
+    width: 100%; 
   }
 .beehive{
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 1px solid red; 
+    width: 100%;
+    padding: 10px;
 }
 .triathlon{
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 1px solid red; 
+    width: 100%;
+    padding: 10px;
 }
-.article2end1{
+#article2end1{
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 100%;
+    height: 26.4vh;
+}
+.article{
+
+    padding: 20px;
 }
 
 .contactMe{
     justify-content:right;
+    display: flex;
 }
