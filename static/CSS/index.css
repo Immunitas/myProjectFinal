@@ -1,34 +1,45 @@
 .containerMain{
     display:flex;
-    border: 1px red solid;
-    background-color: #ccc;
+    border-bottom: 1px solid #ccc;
     padding: 20px;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
+    background-color: azure;
 }
-.box{
+/* .box{
+    display:flex; 
     flex:1;
-    border: 1px solid red; 
     color: rgb(6, 6, 84);
     font: normal 20px Arial, Helvetica, sans-serif;
     padding: 10px;
-}
-.boxBig{
+} */
+/* .boxBig{
+    display: flex;
     flex:3;
-    border: 1px solid red;
     padding: 10px;
+} */
+.box{
+    float: left;
+    width: 33.3%;
+    padding:10px;
+    box-sizing:border-box;
 }
+
 .avatar{
     clip-path: circle();
     width: 100%; 
 }
 .title{
-    display:flex
+    display:flex;
     padding: 10px;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
 }
 .image{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red; 
+    border-top: 1px solid  #ccc;
     padding: 5px;
 }
 /* .beehive, .article, .triathlon{
@@ -54,12 +65,23 @@
 }
 
 /* contact.css */
+.containerContact{
+    padding: 20px;
+    color: rgb(6, 6, 84);
+    font: normal 20px Arial, Helvetica, sans-serif;
+    background-color: azure;
+}
 .form-group{
     padding-bottom: 15px;
     display:block;
-    width:90%;
+    width:100%;
+    margin-left: auto;
+}
+.buttonSend{
+    float:left;
 }
 .my-form textarea{
     padding: 8px;
-    width:90%;
+    width:100%;
+    margin-left: auto;
 }
