@@ -6,72 +6,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Awesome Web Page</title>
     <link rel="stylesheet" href="/static/CSS/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
     <style id="cvd_style" type="text/css"></style>
   </head>
   <body>
-<!-- First container -->
-    <div class="container1">
-      <div class="box1">      
-        <img class="avatar" src="/static/images/img_avatar.png" alt="Avatar"/>
-      </div> 
-      <div class="box2">
+    <!-- First container -->
+    <div class="containerMain">
+      <div class="box">
+        <img class="avatar" src="/static/images/img_avatar.png" alt="Avatar" />
+      </div>
+      <div class="box">
         <h1>Ziva TAVCAR</h1>
       </div>
-      <div class="box3">
+      <div class="boxBig">
         <h2>Welcome to my web page!</h2>
-        <p>This is my personal web page and is a part of the EPFL Extension School project<link rel="EPFL" a href="https://exts.epfl.ch/"></a></p>
+        <p>
+          This is my personal web page and is a part of the
+          <a href="https://exts.epfl.ch/" title="EPFL Extension School">
+            EPFL Extension School </a
+          >project.
+        </p>
       </div>
     </div>
-<!-- Second container -->
-    <div class="container2">
-        <div class="box4">
-            <div class=projects>
-                <h3>Projects</h3>
-            </div>
-            <div class="beehive">
-                <img src="/static/images/beehive.jpg" alt="Ziva with beehive" width="250"/>
-            </div>
-            <div class="button">
-                <button><a href="./HTML/projects.html">Projects</a></button>
-            </div>
+    <!-- Second container -->
+    <div class="containerMain">
+      <div class="box">
+        <div class="title">
+          <h3>Projects</h3>
         </div>
-        <div class="box5">
-            <div class="activities">
-                <h3>Activities</h3>
-            </div>
-            <div class="triathlon">
-                <img id="triathlon" src="/static/images/triathlon.jpg" alt="triathlon" width="250"/>
-            </div>
-            <div class="button">
-                <button><a href="/templates/HTML/activities.html">Activities</a></button>
-            </div>            
+        <div class="image">
+          <img
+            src="/static/images/beehive.jpg"
+            alt="Ziva with beehive"
+            width="250"
+          />
         </div>
-        <div class="box6">
-            <div class="publications">
-                <h3>Publications</h3>
-            </div>
-            <div id="article2end1">
-                <img class="article" src="/static/images/article2.jpg" alt="Joint Bone Spine" width="125"/>
-                <img class="article" src="/static/images/article1.jpg" alt="Science & Motricite" width="125"/>
-            </div>
-            <div class="button">
-                <button><a href="/templates/HTML/publications.html">Discover Publications</a></button>
-            </div>
+        <div class="button">
+          <button><a href="./HTML/projects.html">Projects</a></button>
         </div>
-<!-- End of container -->
+      </div>
+      <div class="box">
+        <div class="title">
+          <h3>Activities</h3>
+        </div>
+        <div class="image">
+          <img
+            id="triathlon"
+            src="/static/images/triathlon.jpg"
+            alt="triathlon"
+            width="250"
+          />
+        </div>
+        <div class="button">
+          <button>
+            <a href="/templates/HTML/activities.html">Activities</a>
+          </button>
+        </div>
+      </div>
+      <div class="box">
+        <div class="title">
+          <h3>Publications</h3>
+        </div>
+        <div class="image">
+          <img
+            class="article"
+            src="/static/images/article2.jpg"
+            alt="Joint Bone Spine"
+            width="125"
+          />
+          <img
+            class="article"
+            src="/static/images/article1.jpg"
+            alt="Science & Motricite"
+            width="125"
+          />
+        </div>
+        <div class="button">
+          <button>
+            <a href="/templates/HTML/publications.html"
+              >Discover Publications</a
+            >
+          </button>
+        </div>
+      </div>
+      <!-- End of container -->
     </div>
-<!-- Footer button contact me -->
-    <div class="button">
-      <footer class="contactMe">
+    <!-- Footer button contact me -->
+    <div class="buttonContact">
+      <footer>
         <button><a href="/templates/HTML/contact.html">Contact Me</a></button>
       </footer>
     </div>
-<!-- fin -->
+    <!-- fin -->
   </body>
 </html>

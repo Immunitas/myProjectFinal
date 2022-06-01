@@ -1,96 +1,65 @@
-
-.container1{
-    display:flex; 
-    border: 1px red solid;
-    background-color: #ccc;
-}
-.container2{
+.containerMain{
     display:flex;
     border: 1px red solid;
     background-color: #ccc;
+    padding: 20px;
 }
-.box1{
+.box{
     flex:1;
-    order:1; 
     border: 1px solid red; 
-    clip-path: circle();
-    width: 10%;
-    justify-content: center;
-}
-.box2{
-    display: flex; 
-    align-items: center;
-    justify-content: center;
-    flex:1;
-    order:2;
     color: rgb(6, 6, 84);
-    border: 1px solid red; 
     font: normal 20px Arial, Helvetica, sans-serif;
+    padding: 10px;
 }
-.box3{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.boxBig{
     flex:3;
-    order:3;
-    color: rgb(6, 6, 84);
-    font: Arial, Helvetica, sans-serif;
-}
-.box4{
-    flex:1;
-    order:1;
-    color: rgb(6, 6, 84);
-    font: Arial, Helvetica, sans-serif;
-}
-.box5{
-    flex:1;
-    order:2;
-    color: rgb(6, 6, 84);
-    font: Arial, Helvetica, sans-serif;
-}
-.box6{
-    flex:1;
-    order:3;
-    color: rgb(6, 6, 84);
-    font: Arial, Helvetica, sans-serif;
-}
-.button{
-    background-color: #ccc; 
-   
+    border: 1px solid red;
+    padding: 10px;
 }
 .avatar{
     clip-path: circle();
     width: 100%; 
-  }
-.beehive{
+}
+.title{
+    display:flex
+    padding: 10px;
+}
+.image{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid red; 
-    width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
-.triathlon{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red; 
-    width: 100%;
-    padding: 10px;
-}
-#article2end1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
-    width: 100%;
-    height: 25.4vh;
-}
+/* .beehive, .article, .triathlon{
+    min-height: 189px; 
+} */
 .article{
-    padding: 10px;
+    display:flex;
+    padding-left: 5px;
+    padding-right: 5px; 
 }
 .button{
-    justify-content:right;
-    display: flex;
+    padding:10px;
+    justify-content: left;
+    vertical-align: bottom;
+}
+.buttonContact{
+    float:right;
+}
+
+/* projet, acitvities, publications css */
+.buttonMainPage{
+    float:right;
+}
+
+/* contact.css */
+.form-group{
+    padding-bottom: 15px;
+    display:block;
+    width:90%;
+}
+.my-form textarea{
+    padding: 8px;
+    width:90%;
 }
