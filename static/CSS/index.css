@@ -1,10 +1,11 @@
 .containerMain{
     display:flex;
+    flex-wrap: wrap;
     border-bottom: 1px solid #ccc;
     padding: 20px;
     color: rgb(6, 6, 84);
     font: normal 20px Arial, Helvetica, sans-serif;
-    background-color: azure;
+    background-color: rgb(229, 237, 243);
 }
 /* .box{
     display:flex; 
@@ -23,8 +24,9 @@
     width: 33.3%;
     padding:10px;
     box-sizing:border-box;
+    flex-wrap: wrap;
+    direction: flex;
 }
-
 .avatar{
     clip-path: circle();
     width: 100%; 
@@ -63,7 +65,6 @@
 .buttonMainPage{
     float:right;
 }
-
 /* contact.css */
 .containerContact{
     padding: 20px;
@@ -76,9 +77,15 @@
     display:block;
     width:100%;
     margin-left: auto;
+    color: rgb(6, 6, 84);
+    font: normal 14px Arial, Helvetica, sans-serif;
 }
 .buttonSend{
     float:left;
+}
+body{
+    color: rgb(6, 6, 84);
+    font: normal 14px Arial, Helvetica, sans-serif;
 }
 .my-form textarea{
     padding: 8px;

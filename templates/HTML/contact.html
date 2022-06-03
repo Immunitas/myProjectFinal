@@ -13,22 +13,31 @@
            <h3>CONTACT ME</h3> 
         </div>
     </div>
-    <div class="form-group">
+    <form action="/send_email" method="post">
+      <div class="form-group">
         <label>Name: </label><br>
-        <input type="text" placeholder="Your name.." required /><br>
+        <input type="text" placeholder="Your name.." required name="name"/><br>
+    </div>
+    <div class="form-group">
+      <label>E-mail: </label><br>
+      <input type="text" placeholder="Your e-mail.." required name="email" /><br>
     </div>
     <div class="my-form textarea">
         <label>Message: </label><br>
-        <textarea name="message"></textarea>
+        <textarea name="message" name="message"></textarea>
     </div>
+    <div class="buttonSend">
+      <input type="submit">
+    </div>
+
+    </form>
+
 <!-- Footer buttons -->
 <footer>
     <div class="buttonMainPage">
-      <button><a href="/templates/index.html">Back to Main Page</a></button>
+      <button><a href="/">Back to Main Page</a></button>
     </div>
-    <div class="buttonSend">
-      <button><a href ="mailto: zivtav@gmail.com">Submit</a></button>
-    </div>
+
   </footer>
 
 </body>
