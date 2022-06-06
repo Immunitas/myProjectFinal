@@ -40,32 +40,16 @@ def contact():
 
 @app.route("/send_email", methods=['POST'])
 def send_email():
-    # faire functionalite pour recuperer les infos et envoyer email
+    # faire les functionalités pour recuperer les infos et envoyer email
     name = request.form.get("name")
     email = request.form.get("email")
     message = request.form.get("message")
-    recipients = ['zivtav@gmail.com']
-    return name + " " + email + message
+    # we have extracted all the data from the POST request
+    process_message(name, email, message)
+
+    return "Thank you for your message"
 
 
-# user contact form
-@app.route("/contact_form", methods=["GET", "POST"])
-def contact_form():
-    message = Message(
-        subject=(request.form['Email'] + " want to contact you via web"),
-        sender=request.form['Email'],
-        recipients=['zivtav@gmail.com'],
-        body=request.form['Message']
-    )
-
-# configurer email
-
-
-def create_email(name, email, message):
-    app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-    app.config['MAIL_PORT'] = 465
-    app.config['MAIL_USERNAME'] = zivtav@gmail.com
-    app.config['MAIL_PASSWORD'] = xxxxx
-    app.config['MAIL_USE_TLS'] = False
-    app.config['MAIL_USE_SSL'] = True
-    mail = Mail(app)
+def process_message(name, email, message):
+    print("We received a new comment", name, email, message)
+# Use Flask logging framework
