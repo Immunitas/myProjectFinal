@@ -35,7 +35,7 @@ There are no additional modules to be installed.
 
 - It does not use at least one module from the Python Standard Library other than the random module.
 - It does not contain at least one class written by my that has both properties and methods. This includes instantiating the class and using the methods in my app.
-- It does not make use of JavaScript in the front end and use the localStorage of the web browser.
+- It does not make use of JavaScript in the front end.
 - It does not use modern JavaScript (for example, let and const rather than var).
 - It does not contain conditional statements.
 - It does not contain loops.

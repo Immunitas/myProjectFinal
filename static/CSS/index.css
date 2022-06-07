@@ -3,9 +3,11 @@
     flex-wrap: wrap;
     border-bottom: 1px solid #ccc;
     padding: 20px;
+    align-items: left;
     color: rgb(6, 6, 84);
     font: normal 20px Arial, Helvetica, sans-serif;
     background-color: rgb(229, 237, 243);
+    justify-content: space-evenly;
 }
 /* .box{
     display:flex; 
@@ -20,12 +22,10 @@
     padding: 10px;
 } */
 .box{
-    float: left;
-    width: 33.3%;
+    width: max-content;
     padding:10px;
     box-sizing:border-box;
     flex-wrap: wrap;
-    direction: flex;
 }
 .avatar{
     clip-path: circle();
