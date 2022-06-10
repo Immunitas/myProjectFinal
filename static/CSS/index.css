@@ -34,11 +34,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh; 
+    height: 20vh;
 }
 .avatar{
   width: 100%; 
   zoom: 25%;
+  -moz-transform: scale(0.25);
 }
 .title{
     display:flex;
